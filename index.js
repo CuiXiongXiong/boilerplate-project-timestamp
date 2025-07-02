@@ -4,7 +4,7 @@
 // init project
 var express = require('express');
 var app = express();
-
+var port =3000;
 app.get('/api/:date?', (req, res) => {
   let date;
   const dateParam = req.params.date;
